@@ -1,0 +1,22 @@
+{
+  "name": "sparse-pixel-reconstruction",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test src/engine.test.js",
+    "format": "prettier --write src README.md package.json index.html public/technical-spec.md",
+    "format:check": "prettier --check src README.md package.json index.html public/technical-spec.md"
+  },
+  "dependencies": {
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "prettier": "3.9.9",
+    "vite": "6.4.3"
+  }
+}

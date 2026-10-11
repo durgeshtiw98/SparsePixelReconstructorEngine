@@ -1,0 +1,113 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="960"
+  height="600"
+  viewBox="0 0 960 600"
+>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#e6dfec" />
+      <stop offset="1" stop-color="#f5ede8" />
+    </linearGradient>
+    <linearGradient id="floor" x2="0" y2="1">
+      <stop stop-color="#ded4d8" />
+      <stop offset="1" stop-color="#eee8e3" />
+    </linearGradient>
+    <linearGradient id="arch" x1="0" y1="0" x2="1" y2=".65">
+      <stop stop-color="#e8bfc0" />
+      <stop offset=".5" stop-color="#c98f9f" />
+      <stop offset="1" stop-color="#9c697f" />
+    </linearGradient>
+    <linearGradient id="side">
+      <stop stop-color="#855d78" />
+      <stop offset="1" stop-color="#b58293" />
+    </linearGradient>
+    <radialGradient id="ball" cx=".28" cy=".22" r=".8">
+      <stop stop-color="#edf1c7" />
+      <stop offset=".2" stop-color="#b4c3a0" />
+      <stop offset=".62" stop-color="#6e8b78" />
+      <stop offset="1" stop-color="#354e49" />
+    </radialGradient>
+    <linearGradient id="white" x2=".9" y2="1">
+      <stop stop-color="#fffcf2" />
+      <stop offset="1" stop-color="#cbbdba" />
+    </linearGradient>
+    <linearGradient id="pillar" x2="1" y2="0">
+      <stop stop-color="#c9b8b8" />
+      <stop offset=".35" stop-color="#f9f1e7" />
+      <stop offset=".8" stop-color="#e2d3c8" />
+      <stop offset="1" stop-color="#c2aaa9" />
+    </linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="13" /></filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="25" /></filter>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h960v600H0z" />
+  <circle
+    cx="755"
+    cy="141"
+    r="80"
+    fill="#fff6e8"
+    opacity=".75"
+    filter="url(#blur)"
+  />
+  <path fill="url(#floor)" d="M0 342h960v258H0z" />
+  <g stroke="#c7bfc4" stroke-width="1" opacity=".42">
+    <path
+      d="M0 388h960M0 454h960M0 548h960M340 342 120 600M480 342v258M620 342 835 600M760 342 960 483M205 342 0 482"
+    />
+  </g>
+  <ellipse
+    cx="476"
+    cy="462"
+    rx="250"
+    ry="33"
+    fill="#796675"
+    opacity=".23"
+    filter="url(#shadow)"
+  />
+  <path d="M215 421 526 393 720 449 403 497z" fill="#f7eee7" />
+  <path d="m215 421 188 76v25l-188-77z" fill="#c3b3b2" />
+  <path d="m403 497 317-48v25l-317 48z" fill="#d9c9c2" />
+  <path
+    fill="url(#side)"
+    fill-rule="evenodd"
+    d="M350 436V205a124 124 0 0 1 248 0v231h-65V209a59 59 0 0 0-118 0v227z"
+  />
+  <path d="m322 436 28 0V205l-28 0zM570 436h28V205h-28z" fill="#8e6379" />
+  <path
+    fill="url(#arch)"
+    fill-rule="evenodd"
+    d="M322 436V205a124 124 0 0 1 248 0v231h-65V209a59 59 0 0 0-118 0v227z"
+  />
+  <path
+    d="M323 436V205a123 123 0 0 1 246 0"
+    fill="none"
+    stroke="#f1cdca"
+    stroke-width="2"
+    opacity=".8"
+  />
+  <ellipse
+    cx="663"
+    cy="455"
+    rx="92"
+    ry="19"
+    fill="#635b62"
+    opacity=".25"
+    filter="url(#shadow)"
+  />
+  <circle cx="648" cy="369" r="88" fill="url(#ball)" />
+  <ellipse
+    cx="278"
+    cy="460"
+    rx="53"
+    ry="12"
+    fill="#635b62"
+    opacity=".22"
+    filter="url(#shadow)"
+  />
+  <path d="M226 356v83c0 23 85 23 85 0v-83z" fill="url(#pillar)" />
+  <ellipse cx="268.5" cy="356" rx="42.5" ry="12" fill="url(#white)" />
+  <path d="m760 324 64-21 49 34-65 24z" fill="#ede3d9" />
+  <path d="m760 324 48 37v64l-48-37z" fill="#c5b2b4" />
+  <path d="m808 361 65-24v64l-65 24z" fill="#d9c8c6" />
+</svg>
